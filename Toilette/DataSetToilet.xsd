@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetToilet" targetNamespace="http://tempuri.org/DataSetToilet.xsd" xmlns:mstns="http://tempuri.org/DataSetToilet.xsd" xmlns="http://tempuri.org/DataSetToilet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetToilet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetToilet" msprop:Generator_UserDSName="DataSetToilet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableT" msprop:Generator_TableClassName="DataTableTDataTable" msprop:Generator_TableVarName="tableDataTableT" msprop:Generator_TablePropName="DataTableT" msprop:Generator_RowDeletingName="DataTableTRowDeleting" msprop:Generator_RowChangingName="DataTableTRowChanging" msprop:Generator_RowEvHandlerName="DataTableTRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableTRowDeleted" msprop:Generator_UserTableName="DataTableT" msprop:Generator_RowChangedName="DataTableTRowChanged" msprop:Generator_RowEvArgName="DataTableTRowChangeEvent" msprop:Generator_RowClassName="DataTableTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="numero" msprop:Generator_ColumnVarNameInTable="columnnumero" msprop:Generator_ColumnPropNameInRow="numero" msprop:Generator_ColumnPropNameInTable="numeroColumn" msprop:Generator_UserColumnName="numero" type="xs:string" minOccurs="0" />
+              <xs:element name="site" msprop:Generator_ColumnVarNameInTable="columnsite" msprop:Generator_ColumnPropNameInRow="site" msprop:Generator_ColumnPropNameInTable="siteColumn" msprop:Generator_UserColumnName="site" type="xs:string" minOccurs="0" />
+              <xs:element name="etat" msprop:Generator_ColumnVarNameInTable="columnetat" msprop:Generator_ColumnPropNameInRow="etat" msprop:Generator_ColumnPropNameInTable="etatColumn" msprop:Generator_UserColumnName="etat" type="xs:string" minOccurs="0" />
+              <xs:element name="prix" msprop:Generator_ColumnVarNameInTable="columnprix" msprop:Generator_ColumnPropNameInRow="prix" msprop:Generator_ColumnPropNameInTable="prixColumn" msprop:Generator_UserColumnName="prix" type="xs:string" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_UserColumnName="type" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
